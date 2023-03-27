@@ -1,3 +1,2 @@
 {gcc -s masm=intel $CFILE
  return (0);}
-
