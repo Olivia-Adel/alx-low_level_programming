@@ -8,4 +8,7 @@
 
 int main(void)
 
-{gcc -s masm=intel $CFILE}
+{
+gcc -s masm=intel $CFILE
+ return (0);
+}
