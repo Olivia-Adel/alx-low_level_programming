@@ -1,14 +1,3 @@
-#include <stdio.h>
+{gcc -s masm=intel $CFILE
+ return (0);}
 
-/**
- * main - main funtion
- *
- * Return: 0 is successfull
- */
-
-int main(void)
-
-{
-gcc -s masm=intel $CFILE
- return (0);
-}
